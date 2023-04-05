@@ -39,7 +39,7 @@
 4. создавать в процентах не имеет смысла по той же причине что и в предидущем задании, тк шаблон "Linux by Zabbix agent" 
 который мы
 будем закреплять за хостами имеет уже элемент данных с этим ключом vm.memory.size[pavalable], поэтому я не стал свой 
-собственный параметер устанавливать, а просто с ключом vm.memory.size[free] создал элемент. Задание легко сделать, я просто видоизменил его потому что потом возникнет конфликт и один из элементов просто не будет работать. Просто чтобы этого не произошло
+собственный параметер устанавливать, а просто с ключом vm.memory.size[free] создал элемент. Задание легко сделать, я просто видоизменил его потому что потом возникнет конфликт и один иhttps://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task3.pngз элементов просто не будет работать. Просто чтобы этого не произошло
 чуть чуть сделал по другому. [create new item for getting free ram](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task1.4%20create%20item%20ram.png)
 
 ### Задание 2
@@ -48,9 +48,9 @@
 
 ### Задание 3
 
-[two templates for two hosts](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task3%20latest%20data%20cpu.png)
-[latest data cpu and other](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task3%20latest%20data%20cpu.png)
-[latest data ram](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task3%20latest%20data%20ram.png)
+* [two templates for two hosts](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task3.png)
+* [latest data cpu and other](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task3%20latest%20data%20cpu.png)
+* [latest data ram](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task3%20latest%20data%20ram.png)
 
 
 ### Задание 4
