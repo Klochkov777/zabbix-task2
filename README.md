@@ -30,17 +30,17 @@
 `Приведите ответ в свободной форме........`
 
 1. 
-2. [create new template]()
+2. [create new template](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task1.2-create%20new%20template.png)
 3. создал элемент. В последующих заданиях к нашем хостам необходимо будет присоединить шаблон "Linux by Zabbix agent",
  там элемент для считывания этой информации есть с ключом system.cpu.util ,idle, в качестве выполнения учебного задания,
   но чтобы не было конфликта в будущем при выполнении моего шаблона и "Linux by Zabbix agent", я создал свой параметр в 
-  и получил это значение выполняя команду на хосте [create user parameter](), а затем создал новый элемент данных
-  [create new item for getting free cpu %]() 
+  и получил это значение выполняя команду на хосте [create user parameter](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task1.3%20create%20user%20parameter.png), а затем создал новый элемент данных
+  [create new item for getting free cpu %](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task1.3%20create%20item.png) 
 4. создавать в процентах не имеет смысла по той же причине что и в предидущем задании, тк шаблон "Linux by Zabbix agent" 
 который мы
 будем закреплять за хостами имеет уже элемент данных с этим ключом vm.memory.size[pavalable], поэтому я не стал свой 
 собственный параметер устанавливать, а просто с ключом vm.memory.size[free] создал элемент. Задание легко сделать, я просто видоизменил его потому что потом возникнет конфликт и один из элементов просто не будет работать. Просто чтобы этого не произошло
-чуть чуть сделал по другому. []()
+чуть чуть сделал по другому. [create new item for getting free ram](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task1.4%20create%20item%20ram.png)
 
 ### Задание 2
 
@@ -48,14 +48,14 @@
 
 ### Задание 3
 
-[two templates for two hosts]()
-[latest data cpu and other]()
-[latest data ram]()
+[two templates for two hosts](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task3%20latest%20data%20cpu.png)
+[latest data cpu and other](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task3%20latest%20data%20cpu.png)
+[latest data ram](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/task3%20latest%20data%20ram.png)
 
 
 ### Задание 4
 
-[dashboard with grathics]()
+[dashboard with grathics](https://github.com/Klochkov777/zabbix-task2/blob/feature/screen/dashboard%20with%20grathics.png)
 
 
 >>>>>>> bae5bb3 (finished task1.2)
